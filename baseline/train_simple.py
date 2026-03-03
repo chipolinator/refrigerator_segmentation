@@ -6,9 +6,6 @@ import os
 import random
 from contextlib import nullcontext
 from pathlib import Path
-
-os.environ.setdefault("NO_ALBUMENTATIONS_UPDATE", "1")
-
 import albumentations as A
 import numpy as np
 import segmentation_models_pytorch as smp
